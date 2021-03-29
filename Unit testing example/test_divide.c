@@ -1,6 +1,8 @@
 #include "unity_internals.h"
 #include "unity.h"
-
+#include "Divide.h"
+void setUp(){}
+void tearDown(){}
 void test_div(void)
 {
     TEST_ASSERT_EQUAL(1,divide(10,10));
